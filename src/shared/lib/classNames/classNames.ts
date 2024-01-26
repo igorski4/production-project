@@ -5,8 +5,6 @@ export const classNames = (
     mods: Mods,
     additional: string[]
 ): string => {
-    console.log(Object.keys(mods).filter((key) => mods[key]));
-
     return [
         cls,
         ...additional,
